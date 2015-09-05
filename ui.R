@@ -32,10 +32,7 @@ shinyUI(pageWithSidebar(
                                  p("(Ages 15-24, genders combined)"), br(),
                                  tableOutput("table")),
                         tabPanel("About", 
-                                 p("Describe this app."), br(),
-                                 p("More"), br(),
-                                 p("More"), br(),
-                                 br(),
+                                 p("Analyzing data to determine the effectiveness of interventions by the UN from 1990 - 2015 to halt and reverse the spread of HIV worldwide."), br(),
                                  p("Data was downloaded from ... ")
                                  )
                         
